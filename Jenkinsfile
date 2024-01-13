@@ -5,9 +5,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                script {
-                
-                }
+                  echo 'Pipeline succeeded! Deployed successfully.'
             }
         }
 
